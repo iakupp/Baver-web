@@ -16,10 +16,10 @@ const Contact = () => {
     <section
     id="kontakt"
           className="
-        max-w-[1248px]
-        w-full mx-auto px-[16px] lg:px-[34px] scroll-mt-[80px] md:scroll-mt-[100px] lg:scroll-mt-[120px] xl:scroll-mt-[150px] flex flex-col xl:flex xl:items-center xl:justify-between">
+        w-full mx-auto scroll-mt-[80px] md:scroll-mt-[100px] lg:scroll-mt-[120px] xl:scroll-mt-[150px] flex flex-col xl:flex xl:items-center xl:justify-between bg-[var(--color-white)]
+        py-[34px] xl:py-[64px]">
           
-        <div className="flex flex-col items-center xl:grid cols-[auto_auto] gap-[16px] w-full">
+        <div className="flex flex-col items-center xl:grid cols-[auto_auto] gap-[16px] w-full max-w-[1248px] px-[16px] lg:px-[34px]">
         
         {/* TEXT */}
         <div className="md:col-span-2 xl:col-span-1 text-left mt-[16px] flex flex-col items-start gap-[16px] w-full">

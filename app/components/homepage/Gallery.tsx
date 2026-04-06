@@ -47,8 +47,8 @@ const Gallery = () => {
     <div
       id="referencie"
       className="
-        w-full mx-auto max-w-[1248px]
-        px-[34px] xl:px-0
+       max-w-[1248px] mx-auto px-[16px] lg:px-[34px]
+        w-full
         pb-[32px] md:pb-[44px] lg:pb-[84px]
         scroll-mt-[70px] md:scroll-mt-[90px] lg:scroll-mt-[110px]
       "
@@ -80,7 +80,7 @@ const Gallery = () => {
               bg-white p-[5px]
               flex justify-center items-center
               cursor-pointer
-              hover:bg-[var(--color-primary)] transition-colors
+              hover:bg-[var(--color-primary)] transition-colors rounded-2xl
             "
           >
             <Image
@@ -88,7 +88,7 @@ const Gallery = () => {
               alt="gallery image"
               width={400}
               height={300}
-              className="object-cover w-full h-[200px] md:h-[250px] lg:h-[300px]"
+              className="object-cover w-full h-[200px] md:h-[250px] lg:h-[300px] rounded-2xl"
             />
           </div>
         ))}
