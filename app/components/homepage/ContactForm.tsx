@@ -17,6 +17,38 @@ const [formData, setFormData] = useState<contactTypes>({
     mobileInput: "",
     messageInput: "",
 });
+  
+  const fields: {
+  id: string;
+  name: keyof contactTypes;
+  label: string;
+  placeholder: string;
+}[] = [
+  {
+    id: "firstName",
+    name: "firstNameInput",
+    label: FirstName,
+    placeholder: FirstName,
+  },
+  {
+    id: "lastName",
+    name: "lastNameInput",
+    label: LastName,
+    placeholder: LastName,
+  },
+  {
+    id: "email",
+    name: "emailInput",
+    label: Email,
+    placeholder: Email,
+  },
+  {
+    id: "mobile",
+    name: "mobileInput",
+    label: Mobile,
+    placeholder: Mobile,
+  },
+];
     
 const [errors, setErrors] = useState<Record<string, string>>({});
 const [submitted, setSubmitted] = useState(false);
@@ -117,52 +149,34 @@ return (
         md:grid-cols-2
       "
     >
-      {/* INPUT */}
-      {[
-        {
-          id: "firstName",
-          name: "firstNameInput",
-          label: FirstName,
-          placeholder: FirstName,
-        },
-        {
-          id: "lastName",
-          name: "lastNameInput",
-          label: LastName,
-          placeholder: LastName,
-        },
-        {
-          id: "email",
-          name: "emailInput",
-          label: Email,
-          placeholder: Email,
-        },
-        {
-          id: "mobile",
-          name: "mobileInput",
-          label: Mobile,
-          placeholder: Mobile,
-        },
-      ].map((field) => (
-        <div key={field.name} className="flex flex-col">
-          <label className="text-sm mb-1 text-dark">
-            {field.label}
-          </label>
+    {/* INPUT */}
+    
+{fields.map((field) => (
+  <div key={field.name} className="flex flex-col">
+    <label className="text-sm mb-1 text-dark">
+      {field.label}
+    </label>
 
-          <input
-            id={field.id}
-            name={field.name}
-            value={formData[field.name]}
-            onChange={handleChange}
-            placeholder={field.placeholder}
-                  className={`border rounded-lg px-4 py-2 text-sm outline-none transition focus:ring-2 focus:ring-[var(--color-primary)] ${errors[field.name] ? "border-red-500" : "border-gray-300"}`}/>
+    <input
+      id={field.id}
+      name={field.name}
+      value={formData[field.name]}
+      onChange={handleChange}
+      placeholder={field.placeholder}
+      className={`
+        border rounded-lg px-4 py-2 text-sm
+        outline-none transition
+        focus:ring-2 focus:ring-[var(--color-primary)]
+        ${errors[field.name] ? "border-red-500" : "border-gray-300"}
+      `}
+    />
 
-        {errors[field.name] && (
-            <p className="text-red-500 text-xs mt-1">
-            {errors[field.name]}
-            </p>
-        )}
-        </div>
+    {errors[field.name] && (
+      <p className="text-red-500 text-xs mt-1">
+        {errors[field.name]}
+      </p>
+    )}
+  </div>
 ))}
 
       {/* TEXTAREA */}

@@ -24,7 +24,10 @@ const NavigationSection = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const handleClick = (e, href) => {
+  const handleClick = (
+    e: React.MouseEvent<HTMLElement>,
+    href: string
+  ) => {
 
     if (href === "/") {
       e.preventDefault();
@@ -58,7 +61,7 @@ const NavigationSection = () => {
     setIsOpen(false);
   };
 
-  const handleLogoClick = (e) => {
+  const handleLogoClick = (e: React.MouseEvent<HTMLElement>) => {
             e.preventDefault();
             window.history.replaceState(null, "", "/");
             setIsOpen(false);
