@@ -1,0 +1,63 @@
+{
+  "heroSection": {
+    "title": "Baver",
+    "text": "Voda, plyn a kúrenie — spolahlivо a načas",
+    "description": "BAVER je vaším partnerom pre kompletnú inštaláciu a servis vody, plynu a vykurovania. Pracujeme rýchlo, poctivo a s dôrazom na každý detail.",
+    "CTA": "Nezáväzná cenová ponuka"
+  },
+
+  "About": {
+    "heading": "O nás",
+    "title":"Prečo BAVER?",
+    "description": "Zakladáme si na kvalitnom spracovaní, použití overených materiálov a férových cenách bez skrytých poplatkov. Naším cieľom je, aby ste boli so službou BAVER spokojní — a odporučili nás ďalej.",
+    "CTA": "Naše služby"
+
+  },
+
+  "Solutions": {
+    "heading": "Čo robíme",
+    "titles": {
+        "title_1": "Inštalácia vody a kanalizácie",
+        "title_2": "Kúrenie a vykurovanie",
+        "title_3": "Podlahové kúrenie",
+        "title_4": "Vyregulovanie kúrenia",
+        "title_5": "Kotly a tepelné čerpadlá",
+        "title_6": "Plynoinštalácia",
+        "title_7": "Plynové revízie"
+    },
+    "descriptions": {
+        "description_1": "Realizujeme rozvody vody a kanalizácie v bytoch, domoch aj firmách podľa platných noriem.",
+        "description_2": "Navrhujeme a montujeme vykurovacie systémy na mieru – od radiátorov po moderné riešenia.",
+        "description_3": "Inštalujeme podlahové kúrenie pre komfortné a efektívne vykurovanie priestoru.",
+        "description_4": "Optimalizujeme vykurovanie pre rovnomerné teplo, nižšiu spotrebu a úsporu nákladov.",
+        "description_5": "Dodávame a montujeme kotly aj tepelné čerpadlá a pomôžeme s výberom najlepšieho riešenia.",
+        "description_6": "Zabezpečujeme odbornú inštaláciu plynových rozvodov pre domácnosti aj firmy v súlade s bezpečnostnými predpismi.",
+        "description_7": "Vykonávame revízie plynových zariadení a rozvodov so všetkými potrebnými výstupmi a dokumentáciou."
+    }
+  },
+
+  "Reviews": {
+    "heading": "Naša práca"
+  },
+
+  "ContactData": {
+    "heading": "Kontaktujte nás",
+    "subheading":"Máte záujem o cenovú ponuku alebo otázku k niektorej zo služieb? Napíšte nám alebo zavolajte — ozveme sa vám čo najskôr.",
+    "ownerEmail":"info@baver.sk",
+    "ownerPhone":"DOPLNIT!!"
+  },
+
+"FormDataLabels": {
+    "FirstName": "Meno",
+    "LastName": "Priezvisko",
+    "Email": "Email",
+    "Mobile": "Mobil",
+    "Message": "Správa"
+},
+
+  "Footer": {
+    "name": "Baver",
+    "rights": "© 2026 Baver",
+    "ico": ""
+  }
+}
