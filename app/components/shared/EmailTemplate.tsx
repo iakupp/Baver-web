@@ -38,28 +38,27 @@ const EmailTemplate = ({
 
           <Section style={styles.dataBox}>
             <Text style={styles.text}>
-              <strong>Meno:</strong> {firstName} {lastName}
+              <strong>Meno: </strong> {firstName} {lastName}
             </Text>
             <Text style={styles.text}>
-                          <strong>Email:</strong>
-                          <a href={`mailto:${email}`} style={styles.link}>
-    {email}
+                          <strong>Email: </strong> 
+                          <a href={`mailto:${email}`} style={styles.link}>{email}
                           </a>
             </Text>
             <Text style={styles.text}>
-            <strong>Telefon:</strong>
+            <strong>Telefon: </strong>
             <a href={`tel:${mobile}`} style={styles.link}>
                 {mobile}
             </a>
             </Text>
             <Text style={styles.text}>
-              <strong>Správa:</strong> {message}
+              <strong>Správa: </strong> {message}
             </Text>
           </Section>
 
-          <Button href="https://www.baver.sk" style={styles.button}>
+          <a href="https://www.baver.sk" style={styles.button}>
             www.baver.sk
-          </Button>
+          </a>
         </Container>
       </Body>
     </Html>
@@ -108,7 +107,7 @@ const styles = {
   },
 
   button: {
-    display: "inline-block",
+    display: "block",
     padding: "14px 28px",
     backgroundColor: "#2ababb",
     color: "#ffffff",
