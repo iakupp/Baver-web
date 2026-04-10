@@ -42,7 +42,7 @@ const Solutionst = () => {
         <h2 className="text-lg xl:text-xl font-semibold mb-2">
             {titles.title_1}
         </h2>
-        <p className="max-w-[600px] text-sm">
+        <p className="max-w-[700px] text-sm">
             {descriptions.description_1}
         </p>
         </div>

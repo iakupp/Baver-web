@@ -1,15 +1,15 @@
 {
   "heroSection": {
     "title": "Baver",
-    "text": "Voda, plyn a kúrenie — spolahlivо a načas",
-    "description": "BAVER je vaším partnerom pre kompletnú inštaláciu a servis vody, plynu a vykurovania. Pracujeme rýchlo, poctivo a s dôrazom na každý detail.",
+    "text": "Voda, plyn, kúrenie — spolahlivо a načas",
+    "description": "BAVER je vaším partnerom pre kompletnú inštaláciu a servis vody, plynu a vykurovania. Pracujeme rýchlo, poctivo s dôrazom na každý detail.",
     "CTA": "Nezáväzná cenová ponuka"
   },
 
   "About": {
     "heading": "O nás",
     "title":"Prečo BAVER?",
-    "description": "Zakladáme si na kvalitnom spracovaní, použití overených materiálov a férových cenách bez skrytých poplatkov. Naším cieľom je, aby ste boli so službou BAVER spokojní — a odporučili nás ďalej.",
+    "description": "Zakladáme si na kvalitnom spracovaní, použití overených materiálov a férových cenách bez skrytých poplatkov. Naším cieľom je, aby ste boli so službou BAVER spokojní a odporučili nás ďalej.",
     "CTA": "Naše služby"
 
   },
@@ -26,12 +26,12 @@
         "title_7": "Plynové revízie"
     },
     "descriptions": {
-        "description_1": "Realizujeme rozvody vody a kanalizácie v bytoch, domoch aj firmách podľa platných noriem.",
-        "description_2": "Navrhujeme a montujeme vykurovacie systémy na mieru – od radiátorov po moderné riešenia.",
+        "description_1": "Realizujeme rozvody vody a kanalizácie v bytoch, domoch aj komerčných priestoroch podľa platných noriem.",
+        "description_2": "Navrhneme a nainštalujeme vykurovací systém na mieru — od klasických radiátorov až po moderné riešenia pre váš dom alebo byt.",
         "description_3": "Inštalujeme podlahové kúrenie pre komfortné a efektívne vykurovanie priestoru.",
         "description_4": "Optimalizujeme vykurovanie pre rovnomerné teplo, nižšiu spotrebu a úsporu nákladov.",
-        "description_5": "Dodávame a montujeme kotly aj tepelné čerpadlá a pomôžeme s výberom najlepšieho riešenia.",
-        "description_6": "Zabezpečujeme odbornú inštaláciu plynových rozvodov pre domácnosti aj firmy v súlade s bezpečnostnými predpismi.",
+        "description_5": "Dodávame a montujeme plynové kotly aj tepelné čerpadlá popredných výrobcov. Poradíme vám s výberom toho najúspornejšieho riešenia pre vaše potreby.",
+        "description_6": "Odborná inštalácia plynových rozvodov pre domácnosti aj firmy. Všetky práce vykonávame s potrebnou certifikáciou a v súlade s bezpečnostnými predpismi.",
         "description_7": "Vykonávame revízie plynových zariadení a rozvodov so všetkými potrebnými výstupmi a dokumentáciou."
     }
   },

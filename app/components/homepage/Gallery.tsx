@@ -45,7 +45,7 @@ const Gallery = () => {
   }, [currentIndex]);
 
   return (
-    <Section>
+    <Section >
     <section
       id="referencie"
       className="
