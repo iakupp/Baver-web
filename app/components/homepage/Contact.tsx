@@ -3,6 +3,8 @@ import Link from "next/link";
 import { ContactData } from "@/app/messages/sk.json";
 import Form from "./ContactForm";
 import logo from "@/app/assets/logo.svg";
+import {Section} from "../shared/SectionAnimation"
+
 
 import { IoMailOpenOutline } from "react-icons/io5";
 import { BiMobileAlt } from "react-icons/bi";
@@ -13,6 +15,7 @@ const { heading, subheading, ownerEmail, ownerPhone } = {
 
 const Contact = () => {
   return (
+    <Section>
     <section
     id="kontakt"
           className="
@@ -58,7 +61,7 @@ const Contact = () => {
             </div>
 
           {/* INFO */}
-        <div className="space-y-[16px] mb-[54px]">
+        {/* <div className="space-y-[16px] mb-[54px]">
             <p className="flex items-center gap-[8px] hover:text-[var(--color-primary)] transition-colors group">
                 
             <span className="text-primary">
@@ -85,7 +88,7 @@ const Contact = () => {
                 {ownerEmail}
               </Link>
             </p>
-          </div>
+          </div> */}
 
           {/* SOCIALS (later) */}
 
@@ -97,7 +100,8 @@ const Contact = () => {
             </div>
         </div>
     </div>
-    </section>
+      </section>
+      </Section>
 );
 };
 

@@ -1,10 +1,13 @@
 import ServiceCard from "../shared/ServiceCard";
-import {Solutions} from "@/app/messages/sk.json";
+import { Solutions } from "@/app/messages/sk.json";
+import {Section} from "../shared/SectionAnimation"
+
 
 const { heading, titles, descriptions } = { ...Solutions };
 
 const Solutionst = () => {
-return (
+    return (
+    <Section>
     <section
     id="sluzby"
     className="bg-[var(--color-white)]
@@ -64,6 +67,7 @@ return (
             </div>
         </div>
     </section>
+        </Section>
 );
 };
 

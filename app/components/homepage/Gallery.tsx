@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import {Section} from "../shared/SectionAnimation"
 
 import galleryData from "../../data/gallery";
 import {Reviews} from "@/app/messages/sk.json";
@@ -44,10 +45,11 @@ const Gallery = () => {
   }, [currentIndex]);
 
   return (
-    <div
+    <Section>
+    <section
       id="referencie"
       className="
-       max-w-[1248px] mx-auto px-[16px] lg:px-[34px]
+       max-w-[1248px] min-h-screen mx-auto px-[16px] lg:px-[34px]
         w-full
         pb-[32px] md:pb-[44px] lg:pb-[84px]
         scroll-mt-[70px] md:scroll-mt-[90px] lg:scroll-mt-[110px]
@@ -151,7 +153,8 @@ const Gallery = () => {
           </button>
         </div>
       )}
-    </div>
+      </section>
+      </Section>
   );
 };
 

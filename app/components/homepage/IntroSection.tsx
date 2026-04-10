@@ -10,7 +10,7 @@ const IntroSection = () => {
   return (
     <section
       id="domov"
-      className="relative w-full h-[600px] sm:h-[650px] lg:h-[700px] overflow-hidden mt-[70px]"
+      className="relative w-full h-[600px] sm:h-[650px] lg:h-[700px] overflow-hidden mt-[70px] min-h-screen"
     >
       {/* Background */}
       <div className="absolute inset-0 z-0">

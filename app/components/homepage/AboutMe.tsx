@@ -1,11 +1,13 @@
 import Button from "../shared/Button";
 import { About } from "@/app/messages/sk.json";
 import Link from "next/link";
+import {Section} from "../shared/SectionAnimation"
 
 const { title, description, CTA } = {...About};
 
 const AboutMe = () => {
   return (
+    <Section>
     <section
       id="o_nas"
       className="
@@ -38,7 +40,8 @@ const AboutMe = () => {
           </Link>
         </div>
       </div>
-    </section>
+      </section>
+      </Section>
   );
 };
 
