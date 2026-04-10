@@ -8,11 +8,11 @@ export async function POST(req) {
 
   try {
     await resend.emails.send({
-      from: "onboarding@resend.dev",
-      to: "jakubmajercik.jm@gmail.com",
+      from: "BAVER <info@baver.sk>",
+      to: "info@baver.sk",
         subject: "Nový dopyt z webu",
         react: EmailTemplate({ firstName, lastName, email, mobile, message }),
-    //   reply_to: email,
+      reply_to: email,
     });
 
     return Response.json({ success: true });

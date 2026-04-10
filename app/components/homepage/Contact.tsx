@@ -61,7 +61,7 @@ const Contact = () => {
             </div>
 
           {/* INFO */}
-        {/* <div className="space-y-[16px] mb-[54px]">
+        <div className="space-y-[16px] mb-[54px]">
             <p className="flex items-center gap-[8px] hover:text-[var(--color-primary)] transition-colors group">
                 
             <span className="text-primary">
@@ -88,7 +88,7 @@ const Contact = () => {
                 {ownerEmail}
               </Link>
             </p>
-          </div> */}
+          </div>
 
           {/* SOCIALS (later) */}
 
